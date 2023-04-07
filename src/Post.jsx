@@ -1,5 +1,3 @@
- export function Button (props) {
-    return (
-        <strong>{props.author}</strong>
-    )
- }
+<h1>
+    AAAAAAAAAAAAAAAAAAAAAAAA
+</h1>

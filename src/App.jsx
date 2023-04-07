@@ -1,17 +1,34 @@
-import { useState } from 'react'
-import { Button } from './Post'
+import './global.css';
+import { Header } from './Components/Header';
+import {Sidebar} from './Components/Sidebar';
 
+
+
+
+
+import styles from './App.module.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
-      <h1>Hello world</h1>
-        <Button
-        author="Diego Brasileiro"
-        />
-     
+      <Header />
+
+      <div className={styles.wrapper}>
+            
+        <aside>
+
+        <Sidebar/>
+        
+        </aside>
+
+
+        <main>
+        <p>AAAAAAAAAAAA</p>
+   
+        <p>AAAAAAAAAAAA</p>
+        </main>
+
+      </div>
     </div>
   )
 }
