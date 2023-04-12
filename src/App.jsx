@@ -1,6 +1,7 @@
 import './global.css';
 import { Header } from './Components/Header';
 import {Sidebar} from './Components/Sidebar';
+import { Post } from './Components/Post';
 
 
 
@@ -23,9 +24,7 @@ function App() {
 
 
         <main>
-        <p>AAAAAAAAAAAA</p>
-   
-        <p>AAAAAAAAAAAA</p>
+      <Post/>
         </main>
 
       </div>
